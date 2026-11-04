@@ -33,7 +33,7 @@ def validate_rating(cls, v):
     if v > 10.0:
         raise ValueError("rating can not be more than 10.0")
     return v
-    
+    ``
 @field_validator('duration')
 @classmethod
 def validate_duration(cls, v):
